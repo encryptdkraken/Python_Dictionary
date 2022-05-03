@@ -1,7 +1,7 @@
 import json #import json
 from difflib import get_close_matches # import function from difflib library
 
-data = json.load(open("pythonproj\PythonProjects\data.json")) #assign file in json format to var
+data = json.load(open("example\file\pathway")) #assign file in json format to var
 
 #create function
 def translate(w):
